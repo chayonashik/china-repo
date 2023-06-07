@@ -1,0 +1,36 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-image: linear-gradient(rgb(247, 230, 233), rgb(243, 186, 186));
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.pink {
+    color: pink;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 62%;
+}
+
+.linkbutton {
+    text-decoration: none;
+    background-image: linear-gradient(pink, rgb(209, 141, 141));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 600;
+}
